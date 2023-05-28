@@ -10,7 +10,7 @@ services:
     - db-volume:/var/lib/postgresql/data
 
   api:
-    image: rafaelos-git/mock-na-pratica
+    image: praticandoapi/praticando-api
     environment:
       DB_HOST: database
     ports:
